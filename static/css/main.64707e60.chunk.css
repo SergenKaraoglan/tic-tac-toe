@@ -1,0 +1,2 @@
+body{height:100%;max-width:960px;margin:auto}.Game,body{justify-content:center}.Game{display:flex;flex-wrap:wrap}.GameBoard,.GameInfo{padding:20px}.GameBoard{display:grid;grid-template-columns:repeat(3,1fr);height:100%}.Square{width:100px;height:100px;font-size:xx-large;background-color:#fff;border:3px solid #000}
+/*# sourceMappingURL=main.64707e60.chunk.css.map */
