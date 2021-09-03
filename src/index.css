@@ -1,13 +1,26 @@
 body{
+    height: 100%;
     max-width: 960px;
     margin: auto;
-    display: grid;
     justify-content: center;
+    
+}
+
+.Game{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.GameInfo{
+    padding: 20px;
 }
 .GameBoard {
+    padding: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    border: 2px solid black;
+    height: 100%;
 }
 
 .Square {
@@ -15,7 +28,7 @@ body{
     height: 100px;
     font-size: xx-large;
     background-color: white;
-    border: 2px solid black;
+    border: 3px solid black;
 }
 
 

@@ -118,11 +118,13 @@ class Game extends React.Component {
                 </div>
                 <div className = "GameInfo">
                     {status}
+                    <br></br>
+                    <button onClick = {() => this.changeMoveOrder()}>Reverse order</button>
+                    <ul>
+                        {moves}
+                    </ul>
                 </div>
-                <button onClick = {() => this.changeMoveOrder()}>Reverse order</button>
-                <ul>
-                    {moves}
-                </ul>
+                
             </div>
         );
     }
